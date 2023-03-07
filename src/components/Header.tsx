@@ -16,6 +16,7 @@ export default function Header({
   pauseGame,
   isPaused,
 }:HeaderProps): JSX.Element {
+  
   return (
     <View style={style.container}>
       <TouchableOpacity onPress={realoadGame}>
@@ -42,6 +43,7 @@ const style = StyleSheet.create({
     justifyContent: "space-between",
     borderColor: Colors.primary,
     borderWidth: 12,
+    borderTopWidth: 25,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
     borderBottomWidth: 0,

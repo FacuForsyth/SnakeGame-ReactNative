@@ -12,7 +12,7 @@ import Header from './Header';
 
 const SNAKE_INITIAL_POSITION = [{ x: 5, y: 5}]; //es un arreglo por que va a ir creciendo
 const FOOD_INITIAL_POSITION = { x: 5, y: 20 }; //es solo una
-const GAME_BOUNDS = { xMin: 0, xMax: 37, yMin: 0, yMax: 73 }; //si pasa estas medidas -> gameover
+const GAME_BOUNDS = { xMin: 0, xMax: 37, yMin: 0, yMax: 67 }; //si pasa estas medidas -> gameover
 const MOVE_INTERVAL = 50;
 const SCORE_INCREMENT = 10;
 
